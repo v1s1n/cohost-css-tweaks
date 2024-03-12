@@ -1,0 +1,15 @@
+/* the following comes partially from kiophen/warpkaiba's cohost tweaks*/
+/* https://userstyles.world/style/7657/cohost-tweaks */
+/* cohost.org/kiophen */
+
+div.h-8.w-8 ~ a[rel="author"] {
+  display: none;
+}
+
+/* i like having name of the person on my feed show, so i add: */
+  header.co-thread-header div.h-8.w-8 ~ a[rel="author"]:first-of-type {
+    display: inline;
+  }
+}
+
+/* dunno if it'll work forever, but it hasn't broken yet */
